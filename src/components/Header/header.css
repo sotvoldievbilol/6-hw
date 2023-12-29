@@ -1,0 +1,28 @@
+header {
+  background-color: #252525;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+}
+
+header nav {
+  display: flex;
+  column-gap: 20px;
+}

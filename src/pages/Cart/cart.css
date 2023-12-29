@@ -1,0 +1,28 @@
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #252525;
+}
+
+.cart-item-col{
+  width: 50%;
+}
+.cart-item-col:first-child{
+display: flex;
+align-items: center;
+column-gap: 10px;
+box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.211);
+}
+.cart-item-col img{
+  width: 40%;
+}
+
+.cart-item-col:last-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 10px;
+}
